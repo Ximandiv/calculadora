@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="icon" href="C:\Users\Xim\Desktop\Paginans\800-8009177_calculator-clipart-transparent-background-calculadora-icone-png.png">
+    <link rel="stylesheet" href="C:\Users\Xim\Desktop\Paginans\areas.css">
+    <script type="text/javascript" src="C:\Users\Xim\Desktop\Paginans\areas.js"></script>
+</head>
+
+<header>
+    <div id="navbar">
+        <h1>CALCULADORA</h1>
+        <ul>
+            <li><a href="C:\Users\Xim\Desktop\Paginans\index.html">Inicio</a></li>
+            <li><a href="C:\Users\Xim\Desktop\Paginans\op.html">Operaciones</a></li>
+            <li><a class="active" href="C:\Users\Xim\Desktop\Paginans\areas.html">Áreas</a></li>
+        </ul>
+    </div>
+</header>
+<body>
+    <br><br>
+    <form>
+        <div id="box1">
+            <h2>Área Cuadrado</h2>
+            <label for="ac1">Lado</label><br>
+            <input type="text" id="ac1" name="ac1"><br> <br>
+            <br> <br>
+            <button type="button" class="btn btn-primary" onclick="aCuad()">Calcular</button>
+            <div>
+                <br>
+                <textarea readonly id="resultadoACuad" cols="20" rows="2"></textarea>
+            </div> <br>
+            <picture id="si">
+                <img src="C:\Users\Xim\Desktop\Paginans\steve-minecraft.gif" alt="cuadradosxd">
+            </picture>
+        </div>
+        <div id="box2">
+            <h2>Área Círculo</h2>
+            <label for="acr1">Radio</label><br>
+            <input type="text" id="acr1" name="acr1"><br> <br>
+            <br> <br>
+            <button type="button" class="btn btn-primary" onclick="aCir()">Calcular</button>
+            <div>
+                <br>
+                <textarea readonly id="resultadoACir" cols="20" rows="2"></textarea>
+            </div> <br>
+            <picture id="si">
+                <img src="C:\Users\Xim\Desktop\Paginans\1341629250712491811.gif" alt="kratos">
+            </picture>
+        </div>
+        <div id="box3">
+            <h2>Área Rectángulo</h2>
+            <label for="ar1">Largo</label><br>
+            <input type="text" id="ar1" name="ar1"><br> <br>
+            <label for="ar2">Ancho</label><br>
+            <input type="text" id="ar2" name="ar2">
+            <br> <br>
+            <button type="button" class="btn btn-primary" onclick="aRect()">Calcular</button>
+            <div>
+                <br>
+                <textarea readonly id="resultadoARect" cols="20" rows="2"></textarea>
+            </div> <br>
+            <picture id="si">
+                <img src="C:\Users\Xim\Desktop\Paginans\mettaton.gif" alt="bocs">
+            </picture>
+        </div>
+        <div id="box4">
+            <h2>Área Rombo</h2>
+            <label for="arom1">Diagonal Mayor</label><br>
+            <input type="text" id="arom1" name="arom1"><br> <br>
+            <label for="arom2">Diagonal Menor</label><br>
+            <input type="text" id="arom2" name="arom2">
+            <br> <br>
+            <button type="button" class="btn btn-primary" onclick="aRom()">Calcular</button>
+            <div>
+                <br>
+                <textarea readonly id="resultadoARom" cols="20" rows="2"></textarea>
+            </div> <br>
+            <picture id="si">
+                <img src="C:\Users\Xim\Desktop\Paginans\LeadingPolishedAustraliancattledog-size_restricted.gif" alt="rhomb">
+            </picture>
+        </div>
+    </form>
+</body>
+
+<footer>
+    &copy Ximandiv, Derechos de Copyright Reservados
+</footer>
+
+</html>
